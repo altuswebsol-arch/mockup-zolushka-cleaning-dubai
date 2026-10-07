@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Zolushka Cleaning &amp; Technical Services | Premium Cleaning — Dubai</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --emerald:#0A3D31; --emerald-2:#0E5240; --pine:#072A22;
+  --gold:#C9A96A; --gold-lt:#E3C98F; --gold-dk:#9A7B45;
+  --ivory:#FBF8F1; --cream:#F4EEE1; --ink:#14201C; --body:#43544E; --muted:#8A988F;
+  --line:rgba(201,169,106,.3);
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:"Montserrat",-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--ivory);color:var(--ink);line-height:1.8;font-weight:400;overflow-x:hidden}
+h1,h2,h3,.serif{font-family:"Cormorant Garamond",Georgia,serif;font-weight:600}
+a{text-decoration:none;color:inherit}
+img{display:block;max-width:100%}
+@keyframes rise{from{opacity:0;transform:translateY(26px)}to{opacity:1;transform:none}}
+.rise{animation:rise 1s cubic-bezier(.2,.7,.2,1) both}
+.r1{animation-delay:.1s}.r2{animation-delay:.22s}.r3{animation-delay:.34s}
+.wrap{max-width:1280px;margin:0 auto;padding:0 36px}
+/* ---------- masthead ---------- */
+.mast{border-bottom:1px solid var(--line);background:var(--ivory)}
+.mast .wrap{display:flex;justify-content:space-between;align-items:center;padding-top:20px;padding-bottom:20px}
+.brand{font-family:"Cormorant Garamond",serif;font-size:30px;font-weight:700;letter-spacing:.04em}
+.brand em{font-style:italic;color:var(--gold-dk)}
+.mnav{display:flex;gap:36px;align-items:center}
+.mnav a{font-size:12px;letter-spacing:2.6px;text-transform:uppercase;font-weight:600;color:var(--body)}
+.mnav a:hover{color:var(--gold-dk)}
+.btn{display:inline-block;padding:15px 38px;font-size:12px;letter-spacing:2.6px;text-transform:uppercase;font-weight:600;transition:.3s;cursor:pointer}
+.btn-gold{background:linear-gradient(120deg,var(--gold-dk),var(--gold) 50%,var(--gold-lt));color:#1d1710;background-size:200% auto}
+.btn-gold:hover{background-position:right center;transform:translateY(-2px);box-shadow:0 14px 32px rgba(201,169,106,.4)}
+.btn-line{border:1px solid var(--ink);color:var(--ink)}
+.btn-line:hover{background:var(--ink);color:var(--ivory)}
+.btn-sm{padding:11px 26px;font-size:11px}
+/* ---------- hero : asymmetric editorial ---------- */
+.hero{position:relative;background:var(--emerald);color:var(--ivory);overflow:hidden}
+.hero::before{content:"Z";position:absolute;right:-40px;bottom:-120px;font-family:"Cormorant Garamond",serif;font-size:480px;line-height:1;color:rgba(201,169,106,.07);font-style:italic}
+.hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:70px;align-items:center;padding:120px 0;position:relative;z-index:2}
+.eyebrow{display:flex;align-items:center;gap:16px;color:var(--gold);font-size:12px;letter-spacing:4px;text-transform:uppercase;font-weight:600;margin-bottom:30px}
+.eyebrow .rule{width:56px;height:1px;background:var(--gold)}
+.hero h1{font-size:clamp(48px,6.6vw,92px);line-height:1.02;margin-bottom:28px;font-weight:600}
+.hero h1 em{font-style:italic;color:var(--gold-lt);font-weight:500}
+.hero .lede{font-size:18px;color:#CBD8D1;max-width:460px;margin-bottom:44px;font-weight:300}
+.hero-cta{display:flex;gap:16px;flex-wrap:wrap}
+.hero-fig{position:relative}
+.hero-fig .frame{border:1px solid var(--line);padding:18px;background:rgba(251,248,241,.03)}
+.hero-fig img{width:100%;height:560px;object-fit:cover}
+.hero-fig figcaption{display:flex;justify-content:space-between;padding:16px 4px 0;font-size:12px;letter-spacing:2.4px;text-transform:uppercase;color:var(--gold)}
+.hero-seal{position:absolute;top:-46px;left:-46px;width:132px;height:132px;border-radius:50%;background:var(--gold);color:#1d1710;display:flex;align-items:center;justify-content:center;text-align:center;font-size:11px;font-weight:700;letter-spacing:1.6px;text-transform:uppercase;line-height:1.5;transform:rotate(-12deg);box-shadow:0 18px 40px rgba(0,0,0,.3)}
+/* ---------- editorial strip ---------- */
+.edstrip{background:var(--ivory);border-bottom:1px solid var(--line)}
+.edstrip .wrap{display:grid;grid-template-columns:repeat(3,1fr);gap:0}
+.edcol{padding:44px 40px;border-left:1px solid var(--line)}
+.edcol:first-child{border-left:none}
+.edcol .cap{font-size:11px;letter-spacing:3px;text-transform:uppercase;color:var(--gold-dk);font-weight:600;margin-bottom:12px}
+.edcol p{font-family:"Cormorant Garamond",serif;font-size:21px;font-style:italic;line-height:1.5;color:var(--ink)}
+/* ---------- services : editorial ledger ---------- */
+section{padding:120px 0}
+.sec-head{margin-bottom:70px;max-width:760px}
+.sec-head h2{font-size:clamp(36px,4.8vw,62px);line-height:1.08;margin:20px 0 18px}
+.sec-head h2 em{font-style:italic;color:var(--gold-dk);font-weight:500}
+.sec-head p{color:var(--body);font-size:17px;max-width:560px}
+.ledger{border-top:2px solid var(--ink)}
+.lrow{display:grid;grid-template-columns:110px 1fr 1.5fr auto;gap:36px;align-items:center;padding:38px 12px;border-bottom:1px solid var(--line);transition:.3s}
+.lrow:hover{background:var(--cream)}
+.lrow .yr{font-family:"Cormorant Garamond",serif;font-style:italic;font-size:22px;color:var(--gold-dk)}
+.lrow h3{font-size:29px;font-weight:600}
+.lrow p{color:var(--body);font-size:15px}
+.lrow .arr{font-family:"Cormorant Garamond",serif;font-size:34px;color:var(--gold-dk);transition:.3s}
+.lrow:hover .arr{transform:translateX(10px)}
+/* ---------- feature : offset magazine ---------- */
+.feature{background:var(--pine);color:var(--ivory);position:relative;overflow:hidden}
+.feat-grid{display:grid;grid-template-columns:.95fr 1.05fr;gap:90px;align-items:center}
+.feat-imgs{position:relative;padding-bottom:70px}
+.feat-imgs .big{width:88%;height:520px;object-fit:cover;border:1px solid var(--line);padding:14px;background:rgba(251,248,241,.03)}
+.feat-imgs .small{position:absolute;right:0;bottom:0;width:52%;height:300px;object-fit:cover;border:10px solid var(--pine);box-shadow:0 30px 60px rgba(0,0,0,.4)}
+.feat-copy .eyebrow{color:var(--gold)}
+.feat-copy h2{font-size:clamp(34px,4.4vw,58px);line-height:1.1;margin-bottom:24px}
+.feat-copy h2 em{font-style:italic;color:var(--gold-lt);font-weight:500}
+.feat-copy>p{color:#BCCBC3;font-size:17px;margin-bottom:16px;font-weight:300}
+.dropcap::first-letter{font-family:"Cormorant Garamond",serif;font-size:64px;float:left;line-height:.85;padding:6px 12px 0 0;color:var(--gold)}
+.goldlist{margin:32px 0 40px;border-top:1px solid var(--line)}
+.goldlist li{list-style:none;display:flex;gap:18px;align-items:baseline;padding:16px 0;border-bottom:1px solid var(--line);color:#E4EDE8;font-size:16px}
+.goldlist .g{color:var(--gold);font-family:"Cormorant Garamond",serif;font-style:italic;font-size:19px;flex:0 0 30px}
+/* ---------- technical band ---------- */
+.tech{background:var(--cream);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.tech-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:40px}
+.tcol{border-left:1px solid var(--line);padding-left:32px}
+.tcol:first-child{border-left:none;padding-left:0}
+.tcol h3{font-size:24px;margin-bottom:10px}
+.tcol p{color:var(--body);font-size:14.5px}
+/* ---------- quote cta ---------- */
+.qcta{text-align:center;background:var(--emerald);color:var(--ivory);position:relative;overflow:hidden}
+.qcta::before{content:"“";position:absolute;top:30px;left:50%;transform:translateX(-50%);font-family:"Cormorant Garamond",serif;font-size:220px;color:rgba(201,169,106,.14);line-height:1}
+.qcta h2{font-size:clamp(36px,5.2vw,66px);line-height:1.12;max-width:820px;margin:0 auto 22px;position:relative}
+.qcta h2 em{font-style:italic;color:var(--gold-lt)}
+.qcta p{color:#BCCBC3;font-size:18px;max-width:580px;margin:0 auto 44px;position:relative}
+.bigphone{font-family:"Cormorant Garamond",serif;font-size:clamp(38px,5vw,64px);display:block;margin-bottom:40px;color:var(--ivory);position:relative}
+.bigphone:hover{color:var(--gold-lt)}
+/* ---------- contact ---------- */
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:start}
+.cinfo h3{font-family:"Cormorant Garamond",serif;font-size:34px;margin-bottom:10px}
+.cinfo>p{color:var(--body);margin-bottom:34px;font-style:italic;font-family:"Cormorant Garamond",serif;font-size:19px}
+.crow{display:flex;gap:20px;padding:22px 0;border-bottom:1px solid var(--line);align-items:flex-start}
+.crow .ic{font-family:"Cormorant Garamond",serif;font-style:italic;font-size:24px;color:var(--gold-dk);flex:0 0 44px}
+.crow b{display:block;font-size:11px;letter-spacing:3px;text-transform:uppercase;color:var(--muted);margin-bottom:4px}
+.crow span{font-size:17px}
+.form{background:#fff;border:1px solid var(--line);padding:52px 48px;box-shadow:0 30px 70px rgba(10,61,49,.1);position:relative}
+.form::before{content:"";position:absolute;top:0;left:0;right:0;height:4px;background:linear-gradient(90deg,var(--gold-dk),var(--gold-lt),var(--gold-dk))}
+.form h3{font-size:32px;margin-bottom:8px}
+.form>p{color:var(--body);font-size:15px;margin-bottom:30px}
+.form label{display:block;font-size:11px;letter-spacing:2.4px;text-transform:uppercase;color:var(--muted);margin:18px 0 8px;font-weight:600}
+.form input,.form textarea,.form select{width:100%;padding:15px 4px;background:transparent;border:none;border-bottom:1.5px solid var(--line);color:var(--ink);font-size:16.5px;font-family:inherit}
+.form input:focus,.form textarea:focus{outline:none;border-color:var(--gold-dk)}
+.form button{width:100%;border:none;margin-top:34px}
+/* ---------- footer ---------- */
+footer{background:var(--pine);color:var(--ivory);padding:76px 0 0}
+footer .wrap{display:flex;justify-content:space-between;gap:28px;flex-wrap:wrap}
+.flogo{font-family:"Cormorant Garamond",serif;font-size:30px;font-weight:700;letter-spacing:.04em}
+.flogo em{font-style:italic;color:var(--gold)}
+.fline{color:#93A69D;font-size:14.5px;margin-top:12px;max-width:420px;font-style:italic;font-family:"Cormorant Garamond",serif;font-size:17px}
+.copy{color:#5E7268;font-size:13px}
+.gallery-credit{margin-top:56px;border-top:1px solid var(--line);padding:28px 0;text-align:center;background:rgba(201,169,106,.05)}
+.gallery-credit .badge{display:inline-block;border:1px solid var(--gold);padding:12px 34px;font-size:11.5px;letter-spacing:3.4px;text-transform:uppercase;color:var(--gold-lt)}
+.gallery-credit p{color:#5E7268;font-size:13px;margin-top:14px;max-width:660px;margin-left:auto;margin-right:auto}
+.gallery-credit a{color:var(--gold-lt)}
+@media(max-width:1020px){.hero-grid,.feat-grid,.contact-grid{grid-template-columns:1fr}.hero-fig img{height:420px}.edstrip .wrap{grid-template-columns:1fr}.edcol{border-left:none;border-top:1px solid var(--line)}.edcol:first-child{border-top:none}.tech-grid{grid-template-columns:1fr 1fr}.mnav a:not(.btn){display:none}.lrow{grid-template-columns:70px 1fr}.lrow p,.lrow .arr{display:none}}
+</style>
+</head>
+<body>
+
+<div class="mast"><div class="wrap">
+  <div class="brand">Zolushka <em>Cleaning</em></div>
+  <nav class="mnav">
+    <a href="#services">Services</a><a href="#standard">The Standard</a><a href="#technical">Technical</a><a href="#contact">Contact</a>
+    <a class="btn btn-gold btn-sm" href="tel:+971505208119">Book Now</a>
+  </nav>
+</div></div>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="hero-grid">
+      <div>
+        <div class="eyebrow rise"><span class="rule"></span> Cleaning &amp; Technical Services · Dubai</div>
+        <h1 class="rise r1">Cleanliness, <em>composed beautifully.</em></h1>
+        <p class="lede rise r2">Premium home cleaning paired with trusted technical handiwork — one refined team for villas and apartments across Dubai.</p>
+        <div class="hero-cta rise r3">
+          <a class="btn btn-gold" href="tel:+971505208119">+971 50 520 8119</a>
+          <a class="btn btn-line" style="border-color:var(--gold);color:var(--gold-lt)" href="#contact">Request a Visit</a>
+        </div>
+      </div>
+      <figure class="hero-fig rise r2">
+        <div class="hero-seal">Premium<br>Care<br>✦ Dubai ✦</div>
+        <div class="frame"><img src="https://images.unsplash.com/photo-1600121848594-d8644e57abab?w=1200&q=80&auto=format&fit=crop" alt="Elegant Dubai interior"></div>
+        <figcaption><span>Al Satwa · Dubai</span><span>N° 01 — Interiors</span></figcaption>
+      </figure>
+    </div>
+  </div>
+</header>
+
+<div class="edstrip"><div class="wrap">
+  <div class="edcol"><div class="cap">The Promise</div><p>Meticulous cleaning with an editor's eye for detail.</p></div>
+  <div class="edcol"><div class="cap">The Craft</div><p>Technical repairs handled by skilled, uniformed staff.</p></div>
+  <div class="edcol"><div class="cap">The Standard</div><p>A written checklist, followed to the letter, every visit.</p></div>
+</div></div>
+
+<section id="services"><div class="wrap">
+  <div class="sec-head">
+    <div class="eyebrow"><span class="rule"></span> The Repertoire</div>
+    <h2>Services, <em>set to a higher standard.</em></h2>
+    <p>From weekly home care to detailed technical work — each service delivered with the same quiet precision.</p>
+  </div>
+  <div class="ledger">
+    <div class="lrow"><div class="yr">N°1</div><h3>Signature Home Cleaning</h3><p>Recurring villa and apartment cleaning with a dedicated team and detailed checklist.</p><span class="arr">→</span></div>
+    <div class="lrow"><div class="yr">N°2</div><h3>Deep Cleaning</h3><p>Intensive restoration cleaning — kitchens, bathrooms, windows and every hidden corner.</p><span class="arr">→</span></div>
+    <div class="lrow"><div class="yr">N°3</div><h3>Move-In / Move-Out</h3><p>Handover-grade cleaning prepared to agency and landlord expectations.</p><span class="arr">→</span></div>
+    <div class="lrow"><div class="yr">N°4</div><h3>Upholstery &amp; Carpet Care</h3><p>Shampoo and extraction for sofas, carpets, curtains and mattresses.</p><span class="arr">→</span></div>
+    <div class="lrow"><div class="yr">N°5</div><h3>Technical &amp; Handyman</h3><p>Electrical, plumbing and carpentry fixes from the same trusted team.</p><span class="arr">→</span></div>
+    <div class="lrow"><div class="yr">N°6</div><h3>Facade &amp; Outdoor</h3><p>Villa exteriors, balconies and outdoor areas washed and refreshed.</p><span class="arr">→</span></div>
+  </div>
+</div></section>
+
+<section id="standard" class="feature"><div class="wrap">
+  <div class="feat-grid">
+    <div class="feat-imgs rise">
+      <img class="big" src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=1000&q=80&auto=format&fit=crop" alt="Refined living space">
+      <img class="small" src="https://images.unsplash.com/photo-1615874959474-d609969a20ed?w=700&q=80&auto=format&fit=crop" alt="Serene bedroom detail">
+    </div>
+    <div class="feat-copy">
+      <div class="eyebrow"><span class="rule"></span> The Zolushka Standard</div>
+      <h2>Every visit, <em>composed to perfection.</em></h2>
+      <p class="dropcap">Detail is our native language. Supervisors inspect each room against a written checklist before we consider a job complete — cushions aligned, surfaces gleaming, nothing overlooked.</p>
+      <ul class="goldlist">
+        <li><span class="g">i.</span> Uniformed, trained and supervised teams</li>
+        <li><span class="g">ii.</span> Professional-grade, safe cleaning agents</li>
+        <li><span class="g">iii.</span> Checklist signed off on every visit</li>
+        <li><span class="g">iv.</span> Technical repairs quoted transparently</li>
+      </ul>
+      <a class="btn btn-gold" href="#contact">Experience the Standard</a>
+    </div>
+  </div>
+</div></section>
+
+<section id="technical" class="tech"><div class="wrap">
+  <div class="sec-head">
+    <div class="eyebrow"><span class="rule"></span> Beyond Cleaning</div>
+    <h2>Technical care, <em>under the same roof.</em></h2>
+  </div>
+  <div class="tech-grid">
+    <div class="tcol"><h3>Electrical</h3><p>Lighting, sockets, fixtures and minor installations.</p></div>
+    <div class="tcol"><h3>Plumbing</h3><p>Leaks, fittings, sanitary ware and water heaters.</p></div>
+    <div class="tcol"><h3>Carpentry</h3><p>Doors, locks, shelving and furniture assembly.</p></div>
+    <div class="tcol"><h3>Painting</h3><p>Touch-ups and room repaints to a flawless finish.</p></div>
+  </div>
+</div></section>
+
+<div class="qcta"><section><div class="wrap">
+  <h2>A home that feels <em>effortlessly immaculate.</em></h2>
+  <p>Call or message us — we'll arrange a visit at your convenience.</p>
+  <a class="bigphone" href="tel:+971505208119">+971 50 520 8119</a>
+  <a class="btn btn-gold" href="#contact">Book Your Visit</a>
+</div></section></div>
+
+<section id="contact"><div class="wrap">
+  <div class="sec-head">
+    <div class="eyebrow"><span class="rule"></span> Correspondence</div>
+    <h2>Begin with <em>a conversation.</em></h2>
+  </div>
+  <div class="contact-grid">
+    <div class="cinfo">
+      <h3>Contact details</h3>
+      <p>We reply to every enquiry personally.</p>
+      <div class="crow"><div class="ic">✦</div><div><b>Telephone</b><span><bdi>+971 50 520 8119</bdi></span></div></div>
+      <div class="crow"><div class="ic">✦</div><div><b>Email</b><span>info@zolushkallc.com</span></div></div>
+      <div class="crow"><div class="ic">✦</div><div><b>Atelier</b><span>Al Satwa, Dubai, UAE</span></div></div>
+    </div>
+    <form class="form" onsubmit="return false">
+      <h3>Request a visit</h3>
+      <p>Share a few details and we'll confirm a time.</p>
+      <label>Your name</label><input required>
+      <label>Phone number</label><input type="tel" required>
+      <label>Service required</label>
+      <select><option>Signature home cleaning</option><option>Deep cleaning</option><option>Move-in / move-out</option><option>Technical &amp; handyman</option><option>Something else</option></select>
+      <label>Notes</label><textarea rows="3"></textarea>
+      <button class="btn btn-gold" type="submit">Send Request →</button>
+    </form>
+  </div>
+</div></section>
+
+<footer><div class="wrap">
+  <div>
+    <div class="flogo">Zolushka <em>Cleaning</em></div>
+    <div class="fline">Premium cleaning &amp; technical services — Al Satwa, Dubai, UAE.</div>
+  </div>
+  <div class="copy">© 2026 Zolushka Cleaning &amp; Technical Services. All rights reserved.</div>
+</div>
+<div class="gallery-credit"><div class="wrap">
+  <span class="badge">✦ Concept by <a href="https://altuswebsolutions.com">Altus Web Solutions</a> ✦</span>
+  <p>Free homepage concept crafted exclusively for Zolushka Cleaning &amp; Technical Services. Your photos, logo and details slot straight in — <a href="https://altuswebsolutions.com">ask us</a> about the full website.</p>
+</div></div>
+</footer>
+
+</body>
+</html>
